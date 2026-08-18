@@ -20,18 +20,24 @@ data that are directly archived.
 
 ## Level 2 - selected statistical reconstruction
 
-Selected permutation, meta-analysis, sensitivity and GSE47681 branches can be
-recomputed where their required archived intermediate files are present:
+Selected analysis scripts are retained as executable provenance, but a clean
+clone of this minimal repository does not by itself contain every historical
+intermediate or third-party input required to rerun each branch. Archived
+numerical outputs can be inspected directly under `data/`, while rerunning the
+corresponding scripts requires the additional inputs stated below.
 
-| Branch | Primary script | Seed | Boundary |
-|---|---|---:|---|
-| Feature-identity permutation | `scripts/67_postlock_sign_identity_calibration.py` | 20260803 | Complete null draws are archived; rebuilding them requires frozen effects or Level 3 inputs. |
-| GSE47681 Hallmark comparison | `scripts/69_gse47681_hallmark_stress_test.py` | 20260803 | Uses archived derived matrices and MSigDB 2026.1 Hallmarks. |
-| Effect-strength sensitivity | `scripts/70_effect_strength_calibration.py` | - | Uses archived effect-strength source tables. |
-| Pathway meta-analysis | `scripts/23_pathway_effect_meta.py`, `scripts/25_gsema_mkh_meta.py` | - | Small-k inference depends on the archived study-level effects. |
+| Branch                       | Primary script                                               |     Seed | Reconstruction boundary                                      |
+| ---------------------------- | ------------------------------------------------------------ | -------: | ------------------------------------------------------------ |
+| Feature-identity permutation | `scripts/67_postlock_sign_identity_calibration.py`           | 20260803 | Complete null draws and summary outputs are archived, but rerunning the script requires historical `results/whole_lesion/`, `results/whole_lesion_programs/` and calibration-report inputs that are not included in this minimal release. |
+| GSE47681 Hallmark comparison | `scripts/69_gse47681_hallmark_stress_test.py`                | 20260803 | Archived GSE47681 derived outputs are provided, but rerunning the historical script also requires discovery-study result tables and the MSigDB 2026.1 mouse Hallmark GMT, which is not redistributed. |
+| Effect-strength sensitivity  | `scripts/70_effect_strength_calibration.py`                  |        - | Archived effect-strength outputs are provided, but rerunning the script requires historical whole-lesion gene and Hallmark result tables that are not included in this minimal release. |
+| Pathway meta-analysis        | `scripts/23_pathway_effect_meta.py`, `scripts/25_gsema_mkh_meta.py` |        - | Archived meta-analysis outputs are provided, but the historical scripts retain dependencies on project-level `reports/` and/or `results/` intermediates that are not included in this minimal release. |
 
-Status: `PARTIAL_ENVIRONMENT_CAPTURE` or
-`REPRODUCIBLE_WITH_PUBLIC_THIRD_PARTY_INPUT`, depending on the branch.
+Accordingly, the archived numerical outputs are directly inspectable, whereas
+the historical scripts should not be interpreted as a guarantee of
+clean-clone execution from this minimal repository alone.
+
+Status: `RECONSTRUCTION_REQUIRES_UNBUNDLED_PROJECT_INTERMEDIATES_OR_PUBLIC_THIRD_PARTY_INPUT`.
 
 ## Level 3 - public-source reconstruction
 
