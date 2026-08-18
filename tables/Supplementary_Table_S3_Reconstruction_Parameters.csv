@@ -1,0 +1,22 @@
+module,specification,software_or_seed
+Pseudobulk inclusion criterion,At least 20 retained cells per sample-by-state group; cells/nuclei never treated as replicates,scripts/03b_qc_pseudobulk.py
+Candidate temporal-cohort estimability criteria,Before outcome analysis: lesion-site context; uninjured/day1/day7 coverage; >=20 retained cells per sample-by-state; >=2 distinct eligible sample units per contrast group; resolvable sample mapping,scripts/17_audit_geo_candidates.py; scripts/65_audit_gse205029_temporal_eligibility.py
+GSE162610 QC,"Deposited author pass_umi, pass_n_genes, pass_percent_mt and non-doublet flags",author calls applied
+GSE234774 QC,"Within-sample filtered-matrix thresholds: genes >= max(200, median-15 MAD), genes <= min(7500, median+5 MAD), counts <= median+5 MAD; mitochondrial fraction unavailable",scripts/03b_qc_pseudobulk.py
+GSE304399 QC,Published filtered RNA matrix; no additional cell-metric filter because metrics were unavailable,scripts/03b_qc_pseudobulk.py
+Gene model,No-intercept group design; >=2 samples per numerator and denominator; filterByExpr; TMM; voom; lmFit; robust eBayes,R 4.4.2; edgeR; limma 3.62.2
+Gene FDR,BH within dataset x state x axis x effect type,scripts/05_pseudobulk_DE.R
+GSEA,"All modeled genes ranked by moderated statistic; 50 mouse Hallmarks; 5,000 permutations",MSigDB 2026.1
+Sample scores,Mean within-study gene z score of log2(CPM+0.5); mean centered within-sample rank; program scores standardized to SD 1 within study,Python 3.14.2; NumPy 2.4.0; pandas 2.3.3; SciPy 1.17.1
+Pathway model,No-intercept uninjured/day1/day7 design; robust eBayes; BH across 50 Hallmarks within score and contrast,limma 3.62.2
+Meta-analysis,REML tau^2; modified Hartung-Knapp scale constrained >=1; t(k-1); descriptive prediction interval for k=3,project implementation; metafor 5.0-1 in GSEMA benchmark
+Equal-feature diagnostic,"10,000 random subsets of 50 individual genes; empirical P=(1+count null>=observed)/10,001",seed 20260729
+Matched-null pilot,500 unique sets per focal program x contrast x level; 3 documented comparability levels; expand only if all criteria are met,seed 20260729
+Module-block refinement,"5,000 candidates per combination; 500 retained sets; no 10,000 expansion after expression-feature failure",seed 20260756
+Leading-edge null,"10,000 within-Hallmark random subsets; fixed original membership during bootstrap/jackknife",seed 20260729
+Composition model,0.5 zero replacement; closure; CLR; study-specific PC1; full rank; residual df>=3; max VIF<=10; condition number<1000,statsmodels recorded in provenance
+GSEMA,"Z-score, GSVA and ssGSEA completed; Singscore could not be evaluated in the installed software version",R 4.4.2; GSEMA 0.99.4; GSVA 2.0.7
+Feature-identity permutation analysis,"10,000 independent within-study feature-label permutations preserving score/rank distributions and sign prevalence; upper-tail empirical P=(1+count null>=observed)/10,001",scripts/67_postlock_sign_identity_calibration.py; seed 20260803
+GSE47681 raw microarray,13 WT CEL files jointly RMA-normalized; mouse4302.db mapping; maximum-IQR probe per symbol with lexicographic tie-break; no-intercept robust limma,R 4.4.2; affy 1.84.0; limma 3.62.2; scripts/68_gse47681_raw_rma_limma.R
+GSE47681 Hallmark context evaluation,"Same 50 mouse Hallmarks; 5,000 preranked permutations; reference is the predefined three-study mean score; unanimity gate requires same non-zero sign in all three discovery datasets",gseapy 1.1.13; seed 20260803; scripts/69_gse47681_hallmark_stress_test.py
+Candidate-dataset estimability flow,"11 documented candidate single-cell datasets; exact temporal coverage, sample-unit count, mapping, retained-cell and tissue-compatibility criteria; purpose-specific audit only",scripts/17_audit_geo_candidates.py; scripts/65_audit_gse205029_temporal_eligibility.py; scripts/72_build_v5_3_3_figures.py

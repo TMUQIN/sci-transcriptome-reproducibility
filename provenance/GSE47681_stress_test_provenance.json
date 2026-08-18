@@ -1,0 +1,43 @@
+{
+  "analysis_role": "orthogonal_cross_platform_context_evaluation",
+  "metric_contract": {
+    "reference_score": "arithmetic mean of the three frozen signed scores",
+    "raw_binary_metrics": "sign(GSE47681) versus sign(reference mean)",
+    "consensus_gate": "all three frozen studies share the same non-zero sign",
+    "conditional_accuracy": "GSE47681 sign accuracy among unanimity-gated features"
+  },
+  "software": {
+    "python": "3.14.2",
+    "numpy": "2.4.0",
+    "pandas": "2.3.3",
+    "scipy": "1.17.1",
+    "gseapy": "1.1.13"
+  },
+  "inputs": [
+    {
+      "path": "reports\\phase_v5_3_3_postlock_upgrade_2026_08\\GSE47681\\effects_GSE47681.tsv",
+      "bytes": 16072938,
+      "sha256": "6bf9f938d42e33e65c511e57d100eaf67bb8ea618a999f80ddd5ad8c2f035013"
+    },
+    {
+      "path": "results\\whole_lesion_programs\\hallmark_gsea_by_study.tsv",
+      "bytes": 202701,
+      "sha256": "27860b6b9cd5b73d0e4c32c4c910a7d6766e6c110b3d3c16215c79870bae6c34"
+    },
+    {
+      "path": "results\\whole_lesion\\effects_GSE162610.tsv",
+      "bytes": 17406217,
+      "sha256": "a6b312c6b5ce8a05dc49fa80279eed2d794f0a0d9549ecfc5199f7bade93b2f3"
+    },
+    {
+      "path": "results\\whole_lesion\\effects_GSE234774.tsv",
+      "bytes": 39419158,
+      "sha256": "0b48ee7b274ba097d08296f4ab7cf438f8ef9341353f5d0e70d5c79377ebaefb"
+    },
+    {
+      "path": "results\\whole_lesion\\effects_GSE304399.tsv",
+      "bytes": 21311002,
+      "sha256": "6e053a4d7edd002909d09b30bd0870ec575d8899637daa649624f58662e8a3dc"
+    }
+  ]
+}

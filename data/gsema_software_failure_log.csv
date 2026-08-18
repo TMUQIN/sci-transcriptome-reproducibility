@@ -1,0 +1,5 @@
+﻿method,contrast_id,attempt_id,software_version,error_message,interpretation
+Singscore,not attributable from legacy parallel diagnostic,legacy_unattributed_01,GSEMA 0.99.4,"1 remote errors, element index: 1",Software diagnostic only; not an analytical evidence row and not counted in any result.
+Singscore,not attributable from legacy parallel diagnostic,legacy_unattributed_02,GSEMA 0.99.4,2 unevaluated and other errors,Software diagnostic only; not an analytical evidence row and not counted in any result.
+Singscore,not attributable from legacy parallel diagnostic,legacy_unattributed_03,GSEMA 0.99.4,first remote error:,Software diagnostic only; not an analytical evidence row and not counted in any result.
+Singscore,not attributable from legacy parallel diagnostic,legacy_unattributed_04,GSEMA 0.99.4,"Error in .applySingscore(x[[1]], geneSets = geneSets, normalize = normalize, : Use other method",Software diagnostic only; not an analytical evidence row and not counted in any result.

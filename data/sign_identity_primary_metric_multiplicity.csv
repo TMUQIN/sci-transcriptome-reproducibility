@@ -1,0 +1,4 @@
+scale,contrast_id,metric,empirical_p,bh_q,n_tests
+program,injury_d1_vs_uninjured,all_study_sign_concordance_rate,0.0001999800019998,0.00044995500449955,3
+program,injury_d7_vs_uninjured,all_study_sign_concordance_rate,0.0091990800919908,0.0091990800919908,3
+program,change_d7_minus_d1,all_study_sign_concordance_rate,0.0002999700029997,0.00044995500449955,3

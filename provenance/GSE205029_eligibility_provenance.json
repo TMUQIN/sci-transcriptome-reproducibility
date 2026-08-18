@@ -1,0 +1,64 @@
+{
+  "created_at": "2026-08-03T18:12:29.170568+08:00",
+  "accession": "GSE205029",
+  "status": "excluded_before_expression_modeling",
+  "expression_counts_accessed": false,
+  "eligible_samples_by_timepoint": {
+    "day_1": 1,
+    "day_14": 2,
+    "day_7": 2,
+    "uninjured": 2
+  },
+  "direct_change_estimable": false,
+  "organism": "Mus musculus",
+  "injury_context": "dorsal column lesion; tissue around lesion core",
+  "audit_scope": "eligibility before expression-count download or outcome analysis",
+  "fixed_rules": {
+    "minimum_retained_cells_per_sample": 20,
+    "minimum_biological_samples_per_group": 2
+  },
+  "inputs": [
+    {
+      "path": "data_raw\\GSE205029\\GSE205029_meta_data.csv.gz",
+      "bytes": 513663,
+      "sha256": "de4bb5915edff04fe7c6ac2bd6d67b9d168d20eb238d8c8f99f73086c273c805"
+    },
+    {
+      "path": "data_raw\\GSE205029\\GSE205029_sample_barcodes.csv.gz",
+      "bytes": 102366,
+      "sha256": "1b70a84227abd4a2a2b565d3cbd767e10eff67d43d3b3d652c58d3a012490a33"
+    },
+    {
+      "path": "data_raw\\GSE205029\\GSE205029_features.csv.gz",
+      "bytes": 195841,
+      "sha256": "146565464de5b9b1499e547a95d05898c621fdfaf26d44fab46c82b84998c92f"
+    },
+    {
+      "path": "data_raw\\GSE205029\\GSE205029_esearch.json",
+      "bytes": 361,
+      "sha256": "f0b69e2287df7e48743a297f75ca72ba4fdcf79f085f31e89f2222818ef1b269"
+    },
+    {
+      "path": "data_raw\\GSE205029\\GSE205029_esummary.json",
+      "bytes": 2709,
+      "sha256": "5192f69c8362b414dc4ef82d5568c00e6472fe34d5d40c385161a32d57ac8ce5"
+    },
+    {
+      "path": "data_raw\\GSE205029\\GSM6204337_brief.soft.txt",
+      "bytes": 4918,
+      "sha256": "7cbca4289eb708756bd139d934364ad45d1659ec291f175b4c7d15eae842b17b"
+    }
+  ],
+  "count_reconciliation": {
+    "metadata_cells": 18203,
+    "barcode_cells": 18203,
+    "features": 55487
+  },
+  "critical_finding": "WT day-1 sample GSM6204337/#10115 retained one post-QC cell; its barcode file label says Ryk_WT_14 while GEO and meta_data identify WT day 1",
+  "wt_sample_barcode_label_conflicts": 4,
+  "final_role": "audited candidate; excluded from expression modeling and all inference",
+  "outputs": [
+    "reports\\phase_submission_extension_audit_2026_08\\GSE205029_wt_sample_eligibility.tsv",
+    "reports\\phase_submission_extension_audit_2026_08\\GSE205029_contrast_estimability.tsv"
+  ]
+}

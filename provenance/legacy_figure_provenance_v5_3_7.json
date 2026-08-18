@@ -1,0 +1,379 @@
+{
+  "analysis": "Molecular Neurobiology v5.3.8 reference-expansion figure set",
+  "created_at": "2026-08-05T04:03:15.957951+08:00",
+  "scientific_state": "predefined numerical results; presentation-only reorganization with chance-adjusted cross-representation comparison and effect-strength sensitivity promoted to the main sequence",
+  "inputs": [
+    {
+      "path": "data_processed/GSE304361_support/whole_lesion/GSE304361_pseudobulk_coldata.tsv",
+      "bytes": 3728,
+      "sha256": "3e24fc083ce6f7c194be052e2e0ab02fe4acbb0d35892aff84471e51d90cbaad"
+    },
+    {
+      "path": "data_processed/whole_lesion/GSE162610_pseudobulk_coldata.tsv",
+      "bytes": 3141,
+      "sha256": "b37021809eaedec38f55ff4204125c32b175038225497fbf40c9ba9a7ee31f2c"
+    },
+    {
+      "path": "data_processed/whole_lesion/GSE234774_pseudobulk_coldata.tsv",
+      "bytes": 10876,
+      "sha256": "ab6e4b0a8e841281262fb55d84d3674c40a7d538425a3210df5cabac9d1fae4d"
+    },
+    {
+      "path": "data_processed/whole_lesion/GSE304399_pseudobulk_coldata.tsv",
+      "bytes": 2666,
+      "sha256": "79b203194d770f616caffd720cc20bcca3bf6e09bec0b36d5441691f94f474f0"
+    },
+    {
+      "path": "reports/phase_final_calibration_and_v5_2026_07/composition_program_association.tsv",
+      "bytes": 40082,
+      "sha256": "449185a3a95ad96e09adb4f96ebd809958e154307925070b99932c6be16acff1"
+    },
+    {
+      "path": "reports/phase_final_calibration_and_v5_2026_07/matched_null_level3_module_block_diagnostics.tsv",
+      "bytes": 12897,
+      "sha256": "a961dff14725b20d2a8fe8f3ef684fe569b7baadf0857c1011f9a33ed4be191a"
+    },
+    {
+      "path": "reports/phase_final_calibration_and_v5_2026_07/mtorc1_context_matrix.tsv",
+      "bytes": 43250,
+      "sha256": "3247e556f87122271991e0a8e5a5c7570fedcd058b2b9e0a904fa75af05498d0"
+    },
+    {
+      "path": "reports/phase_final_calibration_and_v5_2026_07/myc_deoverlap_results.tsv",
+      "bytes": 12662,
+      "sha256": "f1d75704700e1c59d73101717008b83b0b0b3a98369847002870bd92c8c00d2c"
+    },
+    {
+      "path": "reports/phase_reproducibility_calibration_2026_07/equal_feature_count_diagnostic.tsv",
+      "bytes": 2290,
+      "sha256": "c5d3d77c5b52e3c4f8ea24a3bdc18902a02330c54171935224e61b7a760354c0"
+    },
+    {
+      "path": "reports/phase_reproducibility_calibration_2026_07/estimability_matrix.tsv",
+      "bytes": 1901,
+      "sha256": "a91a76c32a97d1b5ca1b69e2abfa3e21f623d25ec24f44fcab024b1882fd1a7f"
+    },
+    {
+      "path": "reports/phase_reproducibility_calibration_2026_07/gsema_benchmark/gsema_mkh_random_effects.tsv",
+      "bytes": 174221,
+      "sha256": "c6530c6696904f63462207739284fa86ba66f0aada4f777571db8c423f2739a5"
+    },
+    {
+      "path": "reports/phase_reproducibility_calibration_2026_07/pathway_meta_mkh.tsv",
+      "bytes": 156005,
+      "sha256": "0a7c79cf18e4fa555991460204b55a03f216ff596e3d44b5bd792ca7d5880fd2"
+    },
+    {
+      "path": "reports/phase_v5_3_3_postlock_upgrade_2026_08/GSE47681/GSE47681_frozen_reference_comparison.tsv",
+      "bytes": 1629,
+      "sha256": "ef95fd3ee3edc860c2b56735eaa4377f3810e69621fd97d0587c8644a2507508"
+    },
+    {
+      "path": "reports/phase_v5_3_3_postlock_upgrade_2026_08/sign_identity/feature_identity_permutation_summary.tsv",
+      "bytes": 15396,
+      "sha256": "9b85a0ad556a852bb116f2fab15493b078ed048592fbd6826cd0e4e4c8ad961d"
+    },
+    {
+      "path": "reports/phase_v5_3_3_postlock_upgrade_2026_08/sign_identity/observed_identity_transfer_metrics.tsv",
+      "bytes": 4837,
+      "sha256": "4573568a08a68fbd0a83aceb90ec29bc51ac56d4c81eb3630041b44ba2205896"
+    },
+    {
+      "path": "reports/phase_v5_3_5_effect_strength_calibration_2026_08/effect_strength_overlap_window_metrics.csv",
+      "bytes": 937,
+      "sha256": "f7a0e24c0c85185fbf3ffbcdccc8ad7001b97723c1040241f4abcc975145a5f5"
+    },
+    {
+      "path": "reports/phase_v5_3_5_effect_strength_calibration_2026_08/effect_strength_stratified_metrics.csv",
+      "bytes": 3473,
+      "sha256": "6e46654b66b8d76c319ca5f6f8e2aa6aedf9a3c5062d1d6386909970d6e81124"
+    },
+    {
+      "path": "results/GSE304361_support/programs/GSE304361_frozen_program_support_summary.tsv",
+      "bytes": 1480,
+      "sha256": "92ccf35fec37203bd0bc7be2e6a09cf665d6cc9cece79219bcd47816e7c8a3e2"
+    },
+    {
+      "path": "results/whole_lesion_programs/hallmark_gsea_by_study.tsv",
+      "bytes": 202701,
+      "sha256": "27860b6b9cd5b73d0e4c32c4c910a7d6766e6c110b3d3c16215c79870bae6c34"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "submission_Molecular_Neurobiology_v5_3_7_final_editorial_2026_08_04/Figures/Fig1_Estimability.eps",
+      "bytes": 418661,
+      "sha256": "3d2c819533f593402a413e8dd423d81640ba38208f007d9f0ecefa1f8a73e3a6"
+    },
+    {
+      "path": "submission_Molecular_Neurobiology_v5_3_7_final_editorial_2026_08_04/Figures/Fig1_Estimability.pdf",
+      "bytes": 42080,
+      "sha256": "57689cdcf11b04e60af374d6a1dd795af08eff01ef572af59158e23c7775376b"
+    },
+    {
+      "path": "submission_Molecular_Neurobiology_v5_3_7_final_editorial_2026_08_04/Figures/Fig1_Estimability.png",
+      "bytes": 79919,
+      "sha256": "ed04c50180d6638c2048c5d036d94afbe988f79c233221648ca1cafe0d2cdb5a"
+    },
+    {
+      "path": "submission_Molecular_Neurobiology_v5_3_7_final_editorial_2026_08_04/Figures/Fig1_Estimability.svg",
+      "bytes": 15128,
+      "sha256": "14ed7fcb8320c5f95c04a5bcb439ffce6401d7396f56a2ac8c26c77e07f97a95"
+    },
+    {
+      "path": "submission_Molecular_Neurobiology_v5_3_7_final_editorial_2026_08_04/Figures/Fig1_Estimability.tif",
+      "bytes": 529414,
+      "sha256": "8f2f212b78aa3864ac6e4e86cb8d70f725a27218481d3bdc40b4583676f44c5a"
+    },
+    {
+      "path": "submission_Molecular_Neurobiology_v5_3_7_final_editorial_2026_08_04/Figures/Fig2_GeneHallmarkTransfer.eps",
+      "bytes": 201022,
+      "sha256": "929c688db817897d78cd390113c3823a635695176f43e1e10a556a35ebac06ec"
+    },
+    {
+      "path": "submission_Molecular_Neurobiology_v5_3_7_final_editorial_2026_08_04/Figures/Fig2_GeneHallmarkTransfer.pdf",
+      "bytes": 50593,
+      "sha256": "e316da1b78308a661d50efc0ed7b4b4678b85575696b195226712beae8f01257"
+    },
+    {
+      "path": "submission_Molecular_Neurobiology_v5_3_7_final_editorial_2026_08_04/Figures/Fig2_GeneHallmarkTransfer.png",
+      "bytes": 185656,
+      "sha256": "935497ce0db21c777e39057ad0844375e12ee402288a89f9ebc5eeaa08003607"
+    },
+    {
+      "path": "submission_Molecular_Neurobiology_v5_3_7_final_editorial_2026_08_04/Figures/Fig2_GeneHallmarkTransfer.svg",
+      "bytes": 66802,
+      "sha256": "cc6271000f3f096e3e011b51441c09505c77d6339fd84b9a9c9cd0a6ea8f70e6"
+    },
+    {
+      "path": "submission_Molecular_Neurobiology_v5_3_7_final_editorial_2026_08_04/Figures/Fig2_GeneHallmarkTransfer.tif",
+      "bytes": 919904,
+      "sha256": "2851cf4eafa51a551d3ecc06e46f39ea9aaae3ed04c64fe935820a833592f343"
+    },
+    {
+      "path": "submission_Molecular_Neurobiology_v5_3_7_final_editorial_2026_08_04/Figures/Fig3_EffectStrengthSensitivity.eps",
+      "bytes": 174089,
+      "sha256": "72010fb7c44fbf806bfafbd586622a00cd86f2224ea78660809f65b1535ba862"
+    },
+    {
+      "path": "submission_Molecular_Neurobiology_v5_3_7_final_editorial_2026_08_04/Figures/Fig3_EffectStrengthSensitivity.pdf",
+      "bytes": 48771,
+      "sha256": "c799c968c49b3ad306dec227d44ed343d5e736c3a5955bb53386a383442aac44"
+    },
+    {
+      "path": "submission_Molecular_Neurobiology_v5_3_7_final_editorial_2026_08_04/Figures/Fig3_EffectStrengthSensitivity.png",
+      "bytes": 236722,
+      "sha256": "79492d5479fda23ba9f939ca37cd4a9e673f8eab2052e9c23500cca8a4d25a4b"
+    },
+    {
+      "path": "submission_Molecular_Neurobiology_v5_3_7_final_editorial_2026_08_04/Figures/Fig3_EffectStrengthSensitivity.svg",
+      "bytes": 47467,
+      "sha256": "5ce31ac63760a2124e223571cba4d6e84cc30dc3347033939d9291c10f8fe23b"
+    },
+    {
+      "path": "submission_Molecular_Neurobiology_v5_3_7_final_editorial_2026_08_04/Figures/Fig3_EffectStrengthSensitivity.tif",
+      "bytes": 763948,
+      "sha256": "dabaff29c798ef6b37111431c9d6d2566fa8e502bcf92801175d9c35a0e27ee5"
+    },
+    {
+      "path": "submission_Molecular_Neurobiology_v5_3_7_final_editorial_2026_08_04/Figures/Fig4_ScoringMethodSensitivity.eps",
+      "bytes": 1334319,
+      "sha256": "93fd8c514727b5281b7b8f5f2ba267aaf66b839f9f028fe821685358791bdd0e"
+    },
+    {
+      "path": "submission_Molecular_Neurobiology_v5_3_7_final_editorial_2026_08_04/Figures/Fig4_ScoringMethodSensitivity.pdf",
+      "bytes": 50258,
+      "sha256": "83c0b675df005bb3c58c13b76b7a3c30c3625533f2a357a883dca3e653f6f86d"
+    },
+    {
+      "path": "submission_Molecular_Neurobiology_v5_3_7_final_editorial_2026_08_04/Figures/Fig4_ScoringMethodSensitivity.png",
+      "bytes": 163315,
+      "sha256": "45ff0a87d4955ab68f2842a3e206a77d9a46c44603ad28e7064d8678413efd43"
+    },
+    {
+      "path": "submission_Molecular_Neurobiology_v5_3_7_final_editorial_2026_08_04/Figures/Fig4_ScoringMethodSensitivity.svg",
+      "bytes": 47430,
+      "sha256": "f3bb3e6f43ea408171d74e133269dc2acf961bbbfe915a4b19ff5670f2b8e5fd"
+    },
+    {
+      "path": "submission_Molecular_Neurobiology_v5_3_7_final_editorial_2026_08_04/Figures/Fig4_ScoringMethodSensitivity.tif",
+      "bytes": 1136410,
+      "sha256": "6c2c33367cb211db30b29d2c00f45569651d144028850f4d244c7e14eab3702d"
+    },
+    {
+      "path": "submission_Molecular_Neurobiology_v5_3_7_final_editorial_2026_08_04/Figures/Fig5_ContextBoundaries.eps",
+      "bytes": 423336,
+      "sha256": "87c8330a6fb0f32a2fd595d5d2aefe56fc8fd68a01a75a57b3b455532652cb98"
+    },
+    {
+      "path": "submission_Molecular_Neurobiology_v5_3_7_final_editorial_2026_08_04/Figures/Fig5_ContextBoundaries.pdf",
+      "bytes": 99210,
+      "sha256": "24bbdf50275962a369dc57b23ee734975456c46d59d26c5499d562932800ec94"
+    },
+    {
+      "path": "submission_Molecular_Neurobiology_v5_3_7_final_editorial_2026_08_04/Figures/Fig5_ContextBoundaries.png",
+      "bytes": 265208,
+      "sha256": "38c223a276ebfb9a48715fe3811e0e94f4442466fffeab24e6798fb2daf01cd8"
+    },
+    {
+      "path": "submission_Molecular_Neurobiology_v5_3_7_final_editorial_2026_08_04/Figures/Fig5_ContextBoundaries.svg",
+      "bytes": 257371,
+      "sha256": "df596a7b9660b2b0eab4eefc6cf21734702eda8e8f8936a3cc4c5a0a41eef0c6"
+    },
+    {
+      "path": "submission_Molecular_Neurobiology_v5_3_7_final_editorial_2026_08_04/Figures/Fig5_ContextBoundaries.tif",
+      "bytes": 1451962,
+      "sha256": "b1661aaffe6e9560cd6a7322960938856306a4da436004199e34083f6df57f1d"
+    },
+    {
+      "path": "submission_Molecular_Neurobiology_v5_3_7_final_editorial_2026_08_04/Figures/FigS1_CompositionSensitivity.eps",
+      "bytes": 161676,
+      "sha256": "3dcadec3440a9cd49a39f599e594c0d2190004a203e1e20bb1b8ac49694f3bc9"
+    },
+    {
+      "path": "submission_Molecular_Neurobiology_v5_3_7_final_editorial_2026_08_04/Figures/FigS1_CompositionSensitivity.pdf",
+      "bytes": 44502,
+      "sha256": "b44f48409de198e5fb5cc0b17c7e4a6c675bf3fe6b998d324986f945e3e8ab77"
+    },
+    {
+      "path": "submission_Molecular_Neurobiology_v5_3_7_final_editorial_2026_08_04/Figures/FigS1_CompositionSensitivity.png",
+      "bytes": 114197,
+      "sha256": "3e3168a58fa8715b6669af9b10a55e0526029b6c7253f37f0c1e04e93b2afc54"
+    },
+    {
+      "path": "submission_Molecular_Neurobiology_v5_3_7_final_editorial_2026_08_04/Figures/FigS1_CompositionSensitivity.svg",
+      "bytes": 35167,
+      "sha256": "fcb83ca7337be191dfcf706555a87460d819837a9edaf5d7880f4872ee51b917"
+    },
+    {
+      "path": "submission_Molecular_Neurobiology_v5_3_7_final_editorial_2026_08_04/Figures/FigS1_CompositionSensitivity.tif",
+      "bytes": 374692,
+      "sha256": "7b41c538a403da42ba71b87854e4f2abe40d60ecc961c491d756b85ec8652d88"
+    },
+    {
+      "path": "submission_Molecular_Neurobiology_v5_3_7_final_editorial_2026_08_04/Figures/FigS2_EstimabilityFlow.eps",
+      "bytes": 187876,
+      "sha256": "eab34b7594494248de3fd4bf293978904eaaddf64ab7185f7b578886d6015074"
+    },
+    {
+      "path": "submission_Molecular_Neurobiology_v5_3_7_final_editorial_2026_08_04/Figures/FigS2_EstimabilityFlow.pdf",
+      "bytes": 46072,
+      "sha256": "c35dcb1df22105646c246baecffd211f5ae40b0962d6267ed2c45132e4bf9dd4"
+    },
+    {
+      "path": "submission_Molecular_Neurobiology_v5_3_7_final_editorial_2026_08_04/Figures/FigS2_EstimabilityFlow.png",
+      "bytes": 209093,
+      "sha256": "39e41daf6f06964ec6896348385e8472b061c16277ed979851e9da5b0f673954"
+    },
+    {
+      "path": "submission_Molecular_Neurobiology_v5_3_7_final_editorial_2026_08_04/Figures/FigS2_EstimabilityFlow.svg",
+      "bytes": 50256,
+      "sha256": "7e66e0ad8ad3884f533567fbf461634cfe2a1e5d7ac528e6c97f4809761d1982"
+    },
+    {
+      "path": "submission_Molecular_Neurobiology_v5_3_7_final_editorial_2026_08_04/Figures/FigS2_EstimabilityFlow.tif",
+      "bytes": 907968,
+      "sha256": "12e54c7f3b555025bed7e321ae0324b62559232b7e585fa4420ce4b6d1e9430c"
+    },
+    {
+      "path": "submission_Molecular_Neurobiology_v5_3_7_final_editorial_2026_08_04/Figures/FigS3_EqualFeatureDiagnostic.eps",
+      "bytes": 141762,
+      "sha256": "46d46fe2c763f2959c4b3b89e55832fd2b7ef5ae38b019d49a505e65afe7443b"
+    },
+    {
+      "path": "submission_Molecular_Neurobiology_v5_3_7_final_editorial_2026_08_04/Figures/FigS3_EqualFeatureDiagnostic.pdf",
+      "bytes": 39747,
+      "sha256": "bfd758ff5c6773abe7e1fcefeeff7e705797d77953878228f6588fb39f062d6b"
+    },
+    {
+      "path": "submission_Molecular_Neurobiology_v5_3_7_final_editorial_2026_08_04/Figures/FigS3_EqualFeatureDiagnostic.png",
+      "bytes": 84719,
+      "sha256": "204730b96d1a60a9f061c2bd8d3bcadad2727969c6dd06f5b78c991adcc523f9"
+    },
+    {
+      "path": "submission_Molecular_Neurobiology_v5_3_7_final_editorial_2026_08_04/Figures/FigS3_EqualFeatureDiagnostic.svg",
+      "bytes": 24639,
+      "sha256": "2a25a8679c68408093b9c3370b319fdb7484fb81f89dec8bd760427175e6720f"
+    },
+    {
+      "path": "submission_Molecular_Neurobiology_v5_3_7_final_editorial_2026_08_04/Figures/FigS3_EqualFeatureDiagnostic.tif",
+      "bytes": 403326,
+      "sha256": "4ef101adc25d03eed5a71c552d936c8692abf8bb1f508b46ad44a69baa199977"
+    },
+    {
+      "path": "submission_Molecular_Neurobiology_v5_3_7_final_editorial_2026_08_04/Figures/FigS4_GSE47681_QC.eps",
+      "bytes": 157138,
+      "sha256": "184aa7366ab8625a7679909635a4804689b9ac052cbff9af67e4e9699b2ac18b"
+    },
+    {
+      "path": "submission_Molecular_Neurobiology_v5_3_7_final_editorial_2026_08_04/Figures/FigS4_GSE47681_QC.pdf",
+      "bytes": 43212,
+      "sha256": "cfc394dbb5852a1a41d4c9106af5f859a34e39d4edc3fdd5a22dac63a674c468"
+    },
+    {
+      "path": "submission_Molecular_Neurobiology_v5_3_7_final_editorial_2026_08_04/Figures/FigS4_GSE47681_QC.png",
+      "bytes": 91517,
+      "sha256": "646711c78a84495bb48bae5cf40487883c1b9eaec69fe39d78364efebe70762f"
+    },
+    {
+      "path": "submission_Molecular_Neurobiology_v5_3_7_final_editorial_2026_08_04/Figures/FigS4_GSE47681_QC.svg",
+      "bytes": 35887,
+      "sha256": "424030ef5da8793dca8dd7cfa305d805135d0c4f5b3389e0252d77bda4b2bfdb"
+    },
+    {
+      "path": "submission_Molecular_Neurobiology_v5_3_7_final_editorial_2026_08_04/Figures/FigS4_GSE47681_QC.tif",
+      "bytes": 428046,
+      "sha256": "ebbc909fd643cc6d0b3361adde7620db96f03409638d138f83ff124f44d3b691"
+    },
+    {
+      "path": "submission_Molecular_Neurobiology_v5_3_7_final_editorial_2026_08_04/Figures/FigS5_LeadingEdgeStability.eps",
+      "bytes": 237154,
+      "sha256": "fe0ddd4ac0e3dff960d3612b5fa3a5709036068833803ee281a3d3c29a7f7935"
+    },
+    {
+      "path": "submission_Molecular_Neurobiology_v5_3_7_final_editorial_2026_08_04/Figures/FigS5_LeadingEdgeStability.pdf",
+      "bytes": 63946,
+      "sha256": "14aadb23d0ca50615b5487a41a37a1d60785245284e20e9245c899ebdab3f53a"
+    },
+    {
+      "path": "submission_Molecular_Neurobiology_v5_3_7_final_editorial_2026_08_04/Figures/FigS5_LeadingEdgeStability.png",
+      "bytes": 144725,
+      "sha256": "0978fd95e35fc755235793de8718db424bb2d10849477d525e52167a9bfb4507"
+    },
+    {
+      "path": "submission_Molecular_Neurobiology_v5_3_7_final_editorial_2026_08_04/Figures/FigS5_LeadingEdgeStability.svg",
+      "bytes": 104589,
+      "sha256": "bd49f3cf2299f75e1cb2edc8da922479c750091a91764a3625ba1977d07c80c2"
+    },
+    {
+      "path": "submission_Molecular_Neurobiology_v5_3_7_final_editorial_2026_08_04/Figures/FigS5_LeadingEdgeStability.tif",
+      "bytes": 706232,
+      "sha256": "aee0235c1056adf83d2968ba34dc572ff17913547e573673b37c3eb5d0561a79"
+    },
+    {
+      "path": "submission_Molecular_Neurobiology_v5_3_7_final_editorial_2026_08_04/Figures/FigS6_MatchedNullExchangeability.eps",
+      "bytes": 166115,
+      "sha256": "d50bc2a2fae60b7ff77ef60da1dccf87918c4cbde8f16d118b22fb9f70bf7c2b"
+    },
+    {
+      "path": "submission_Molecular_Neurobiology_v5_3_7_final_editorial_2026_08_04/Figures/FigS6_MatchedNullExchangeability.pdf",
+      "bytes": 45602,
+      "sha256": "5bd0db7205a7403e116334a22dd4ee88fabd1882f04153e0d88d4e79dc84d95f"
+    },
+    {
+      "path": "submission_Molecular_Neurobiology_v5_3_7_final_editorial_2026_08_04/Figures/FigS6_MatchedNullExchangeability.png",
+      "bytes": 156431,
+      "sha256": "f89a5ff26ba027718cf1ec1b53e2db3c722ee35281849b9e1471248de179fdb8"
+    },
+    {
+      "path": "submission_Molecular_Neurobiology_v5_3_7_final_editorial_2026_08_04/Figures/FigS6_MatchedNullExchangeability.svg",
+      "bytes": 35714,
+      "sha256": "5fdc59a3cafc15e603b8dcdb9c88aa3af673041b11bfb3f290e754f784b40924"
+    },
+    {
+      "path": "submission_Molecular_Neurobiology_v5_3_7_final_editorial_2026_08_04/Figures/FigS6_MatchedNullExchangeability.tif",
+      "bytes": 635678,
+      "sha256": "ffc79ce16897b601b530a375ed16b9c0ee534153765049644fd7e760e2f0d21f"
+    }
+  ]
+}

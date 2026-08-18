@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+title: >-
+  Cross-Study Reproducibility in Mouse Spinal Cord Injury Transcriptomes:
+  Analysis Code and Derived Data
+message: >-
+  If you use this repository, please cite the archived software release and the
+  associated manuscript.
+type: software
+version: 1.0.0
+authors:
+  - family-names: Qin
+    given-names: Dexiang
+  - family-names: Guo
+    given-names: Junrui
+  - family-names: Li
+    given-names: Baicao
+  - family-names: Hou
+    given-names: Hebin
+  - family-names: Zhang
+    given-names: Qi
+  - family-names: Li
+    given-names: Shouchen
+  - family-names: Ning
+    given-names: Guangzhi
+    orcid: "https://orcid.org/0000-0002-1635-9902"
+repository-code: "GITHUB_URL_PENDING"
+license: MIT
+keywords:
+  - spinal cord injury
+  - transcriptomics
+  - reproducibility
+  - pseudobulk
+  - gene-set scoring
+  - meta-analysis

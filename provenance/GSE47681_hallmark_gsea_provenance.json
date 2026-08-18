@@ -1,0 +1,21 @@
+{
+  "analysis_role": "orthogonal_cross_platform_context_evaluation",
+  "dataset": "GSE47681",
+  "not_pooled_with_frozen_meta_analysis": true,
+  "rank_statistic": "moderated t statistic (estimate/se) from raw-CEL RMA plus robust limma",
+  "gene_sets": "references\\msigdb_mh.all.v2026.1.Mm.symbols.gmt",
+  "gene_sets_bytes": 48007,
+  "gene_sets_sha256": "3a21be724a87dc0375955e725ca9688b87a26e7b74b62fba0c62da0967b789f7",
+  "permutations": 5000,
+  "seed": 20260803,
+  "min_size": 15,
+  "max_size": 500,
+  "weight": 1.0,
+  "gseapy_version": "1.1.13",
+  "exact_tie_handling": "same frozen deterministic IEEE-754 nextafter rule as script 06e",
+  "input_effects": {
+    "path": "reports\\phase_v5_3_3_postlock_upgrade_2026_08\\GSE47681\\effects_GSE47681.tsv",
+    "bytes": 16072938,
+    "sha256": "6bf9f938d42e33e65c511e57d100eaf67bb8ea618a999f80ddd5ad8c2f035013"
+  }
+}

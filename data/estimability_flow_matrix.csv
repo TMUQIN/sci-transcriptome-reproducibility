@@ -1,0 +1,12 @@
+dataset,exact_d1_d7_coverage,sample_unit_count,sample_mapping,retained_cell_eligibility,lesion_site_compatibility,direct_change_estimable
+GSE162610,pass,pass,pass,pass,pass,pass
+GSE234774,pass,pass,pass,pass,pass,pass
+GSE304399,pass,pass,pass,pass,pass,pass
+GSE304361,fail,pass,pass,pass,pass,fail
+GSE205029,pass,pass,qualified,fail,pass,fail
+GSE159638,fail,pass,pass,pass,pass,fail
+GSE172167,pass,pass,pass,pass,fail,fail
+GSE240727,pass,fail,qualified,pass,pass,fail
+GSE247844,fail,pass,pass,pass,pass,fail
+GSE275982,fail,pass,pass,pass,qualified,fail
+GSE298545,fail,qualified,qualified,pass,pass,fail

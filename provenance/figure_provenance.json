@@ -1,0 +1,23 @@
+{
+  "analysis": "Molecular Neurobiology current manuscript-facing figure map",
+  "version": "v5.3.7 manuscript organization",
+  "scientific_state": "Frozen numerical results; presentation-only reorganization",
+  "main_figures": [
+    "Fig1_Estimability",
+    "Fig2_GeneHallmarkTransfer",
+    "Fig3_EffectStrengthSensitivity",
+    "Fig4_ScoringMethodSensitivity",
+    "Fig5_ContextBoundaries"
+  ],
+  "supplementary_figures": [
+    "FigS1_CompositionSensitivity",
+    "FigS2_Estimability",
+    "FigS3_EqualFeatureDiagnostic",
+    "FigS4_GSE47681_QC",
+    "FigS5_LeadingEdgeStability",
+    "FigS6_MatchedNullExchangeability"
+  ],
+  "presentation_assembly": "Historical project-level plotting infrastructure is not included in the minimal public release; exact pixel-identical clean-clone regeneration is not claimed.",
+  "source_map": "metadata/CODE_TO_OUTPUT_MAP.csv",
+  "legacy_provenance": "provenance/legacy_figure_provenance_v5_3_7.json"
+}

@@ -1,0 +1,6 @@
+﻿legacy_identifier,manuscript_facing_meaning,scope
+GSE304361_endpoint_stress_test,additional endpoint and genotype-context evaluation,machine-level source-table label retained for provenance
+independent_external_day7_endpoint_stress_test,additional wild-type day-7 context,machine-level source-table label retained for provenance
+post_primary_three_study_whole_lesion,secondary three-study all-state aggregate analysis,machine-level source-table label retained for provenance
+stress_test,orthogonal context evaluation,machine-level source-table label retained for provenance
+whole_lesion_bulk_equivalent,all-state aggregate pseudobulk,manuscript-defined aggregate; not intact lesion composition

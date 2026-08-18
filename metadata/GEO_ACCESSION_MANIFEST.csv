@@ -1,0 +1,9 @@
+geo_accession,role,platform,raw_redistributed,source,repository_content
+GSE162610,primary scRNA-seq,10x/V3,yes (derived effects in ESM2),NCBI GEO,derived effects only
+GSE234774,primary scRNA-seq,10x/V3,yes,NCBI GEO,derived effects only
+GSE304399,primary scRNA-seq,10x,yes,NCBI GEO,derived effects only
+GSE304361,endpoint/genotype context evaluation,scRNA-seq,audited; no lesion-site result,NCBI GEO,derived support summary only
+GSE159638,candidate audit,scRNA-seq,audited candidate,NCBI GEO,provenance only
+GSE172167,candidate audit,scRNA-seq,contributes no lesion-site result,NCBI GEO,provenance only
+GSE205029,temporal eligibility assessment,scRNA-seq,excluded before expression modeling,NCBI GEO,eligibility provenance only
+GSE47681,orthogonal cross-platform context evaluation,Affymetrix mouse4302,"yes (13 WT CEL, RMA-normalized derived)",NCBI GEO,derived RMA/gene effects + CEL SHA256 manifest; CEL not redistributed

@@ -1,0 +1,36 @@
+# Large / third-party / private artifacts never committed
+*.cel
+*.CEL
+*.gz
+!data/GSE47681_RMA_gene_expression.tsv.gz
+!data/GSE47681_shared_feature_score_matrix.tsv.gz
+*.npz
+!data/sign_identity_permutation_null_draws.npz
+*.tsv
+*.RData
+*.rds
+
+# Local environment
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+.Rproj.user/
+.ipynb_checkpoints/
+
+# Secrets / credentials (hard fail if present)
+*.pem
+*.key
+*.env
+secrets.*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+
+# Draft / private
+*draft*
+*_private*
+DO_NOT_UPLOAD*

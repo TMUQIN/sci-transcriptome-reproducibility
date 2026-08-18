@@ -1,0 +1,16 @@
+component,version,source,captured_or_documented,notes
+Python,3.14.2,manuscript/provenance,documented,
+NumPy,2.4.0,manuscript/provenance,documented,
+pandas,2.3.3,manuscript/provenance,documented,
+SciPy,1.17.1,manuscript/provenance,documented,
+gseapy,1.1.13,manuscript/provenance,documented,
+Matplotlib,3.10.8,figure-generation environment,documented,figure presentation used Matplotlib; exact pixel reproduction is not claimed from minimal release
+GSEMA,0.99.4,manuscript/provenance,documented,
+GSVA,2.0.7,manuscript/provenance,documented,
+R,4.4.2,manuscript/provenance + R_sessionInfo,documented+partial capture,
+Bioconductor,3.20,manuscript/provenance,documented,
+limma,3.62.2,manuscript/provenance,documented,
+affy,1.84.0,manuscript/provenance,documented,
+edgeR,current Bioc 3.20,manuscript/provenance,documented,
+metafor,5.0-1,GSEMA benchmark provenance,documented,where applicable
+MSigDB Hallmark,Mm v2026.1,provenance GMT hash,documented,file sha256 3a21be72...b789f7

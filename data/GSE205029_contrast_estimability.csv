@@ -1,0 +1,4 @@
+﻿candidate_dataset,contrast,eligible_numerator_samples,eligible_denominator_samples,estimable,decision
+GSE205029,day_1_vs_uninjured,1,2,False,not modeled; no threshold relaxation or imputation
+GSE205029,day_7_vs_uninjured,2,2,True,eligible as a separate injury-model endpoint context only
+GSE205029,direct_day_7_minus_day_1,2,1,False,not modeled; no threshold relaxation or imputation

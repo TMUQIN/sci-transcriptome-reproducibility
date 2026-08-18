@@ -1,0 +1,11 @@
+﻿item,value,note
+arrays_read,13,All frozen-eligible CEL files parsed successfully
+eligible_SHAMWT,4,Independent WT sham biological samples
+eligible_DAY1WT,5,Independent WT day-1 biological samples
+eligible_DAY7WT,4,Independent WT day-7 biological samples
+rma_probe_sets,45101,Affymetrix RMA summaries
+mapped_probe_symbol_pairs,40713,After missing-symbol removal and multi-symbol expansion
+selected_unique_genes,22007,Maximum IQR probe; lexicographic tie-break
+arrays_excluded_after_qc,0,No technical parse failure; no outcome-based exclusion
+model_design_rank,3,No-intercept limma model
+model_design_columns,3,"SHAMWT, DAY1WT, DAY7WT"

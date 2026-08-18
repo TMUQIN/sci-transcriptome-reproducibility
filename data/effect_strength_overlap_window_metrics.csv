@@ -1,0 +1,7 @@
+scale,contrast_id,contrast_label,contrast_class,window_low,window_high,n_features,all_study_concordance,heldout_balanced_accuracy
+gene,injury_d1_vs_uninjured,day 1 vs uninjured,endpoint,0.5403865830548744,2.6709861352578255,11811,0.4446702226737787,0.6636778368996882
+gene,injury_d7_vs_uninjured,day 7 vs uninjured,endpoint,0.5403865830548744,2.6709861352578255,12687,0.4623630487901001,0.6687710257297947
+gene,change_d7_minus_d1,day 7 vs day 1,between_timepoint,0.5403865830548744,2.6709861352578255,12265,0.415002038320424,0.6365537141379844
+hallmark,injury_d1_vs_uninjured,day 1 vs uninjured,endpoint,1.007095233801695,1.9301549710332835,25,0.72,0.7632575757575758
+hallmark,injury_d7_vs_uninjured,day 7 vs uninjured,endpoint,1.007095233801695,1.9301549710332835,33,0.7878787878787878,0.7163966049382715
+hallmark,change_d7_minus_d1,day 7 vs day 1,between_timepoint,1.007095233801695,1.9301549710332835,40,0.3,0.6612341181306698

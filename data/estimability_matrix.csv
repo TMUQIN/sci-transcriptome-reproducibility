@@ -1,0 +1,10 @@
+﻿branch,scale,study_set,tissue_compartment,lineage,contrast_id,estimable,n_studies,n_complete_features,reason
+post_primary_three_study_whole_lesion,gene,GSE162610;GSE234774;GSE304399,whole_lesion_bulk_equivalent,not_applicable,injury_d1_vs_uninjured,yes,3,15331,complete signed score in all three independent studies
+post_primary_three_study_whole_lesion,gene,GSE162610;GSE234774;GSE304399,whole_lesion_bulk_equivalent,not_applicable,injury_d7_vs_uninjured,yes,3,15331,complete signed score in all three independent studies
+post_primary_three_study_whole_lesion,gene,GSE162610;GSE234774;GSE304399,whole_lesion_bulk_equivalent,not_applicable,change_d7_minus_d1,yes,3,15331,complete signed score in all three independent studies
+post_primary_three_study_whole_lesion,program,GSE162610;GSE234774;GSE304399,whole_lesion_bulk_equivalent,not_applicable,injury_d1_vs_uninjured,yes,3,50,complete signed score in all three independent studies
+post_primary_three_study_whole_lesion,program,GSE162610;GSE234774;GSE304399,whole_lesion_bulk_equivalent,not_applicable,injury_d7_vs_uninjured,yes,3,50,complete signed score in all three independent studies
+post_primary_three_study_whole_lesion,program,GSE162610;GSE234774;GSE304399,whole_lesion_bulk_equivalent,not_applicable,change_d7_minus_d1,yes,3,50,complete signed score in all three independent studies
+independent_external_day7_endpoint_stress_test,program,GSE304361,whole_lesion_and_author_cell_types,author_cell_types,injury_d1_vs_uninjured,no,1,0,GSE304361 has no day-1 endpoint
+independent_external_day7_endpoint_stress_test,program,GSE304361,whole_lesion_and_author_cell_types,author_cell_types,change_d7_minus_d1,no,1,0,GSE304361 has no day-1 endpoint
+independent_external_day7_endpoint_stress_test,program,GSE304361,whole_lesion_and_author_cell_types,author_cell_types,injury_d7_vs_uninjured,yes,1,50,endpoint stress test only; not temporal replication

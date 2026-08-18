@@ -1,0 +1,12 @@
+# ADVISORY ONLY — not a guaranteed-reproduction lock.
+# Exact pinned transitive versions were not fully captured at freeze time.
+# Use environment/ENVIRONMENT.md and environment/software_versions.csv as the
+# authoritative minimum-version record.
+numpy==2.4.0
+pandas==2.3.3
+scipy==1.17.1
+gseapy==1.1.13
+matplotlib==3.10.8
+# GSEMA 0.99.4 and GSVA 2.0.7 are R/Bioconductor packages, not pip-installable here.
+# R 4.4.2 / Bioconductor 3.20 with limma 3.62.2, affy 1.84.0, edgeR, metafor 5.0-1
+# are required for the R scripts (see environment/R_sessionInfo_GSE47681.txt).

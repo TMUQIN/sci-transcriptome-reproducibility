@@ -1,0 +1,9 @@
+﻿treatment,sample,orig.ident,retained_cells,gsm,timepoint,passes_min_cells,sample_barcode_labels,label_consistent
+Ryk_WT_1,3821,3821-Ryk,1025,GSM6204331,day_1,True,Ryk_WT_1,True
+Ryk_WT_1,10115,10115-Ryk,1,GSM6204337,day_1,False,Ryk_WT_14,False
+Ryk_WT_14,10113,10113-Ryk,1305,GSM6204340,day_14,True,Ryk_KO_14,False
+Ryk_WT_14,10114,10114-Ryk,1014,GSM6204341,day_14,True,Ryk_WT_14,True
+Ryk_WT_7,3820,3820-Ryk,1203,GSM6204330,day_7,True,Ryk_WT_7,True
+Ryk_WT_7,10117,10117-Ryk,840,GSM6204339,day_7,True,Ryk_WT_1,False
+WT_nsci,1771,1771-Ryk,980,GSM6204332,uninjured,True,Ryk_WT_NSCI,True
+WT_nsci,10120,10120-Ryk,1384,GSM6204335,uninjured,True,Ryk_KO_NSCI,False

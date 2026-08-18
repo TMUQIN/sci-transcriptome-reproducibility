@@ -1,0 +1,4 @@
+﻿coefficient,injury_d1_vs_uninjured,injury_d7_vs_uninjured,change_d7_minus_d1
+SHAMWT,-1,-1,0
+DAY1WT,1,0,-1
+DAY7WT,0,1,1

@@ -1,0 +1,90 @@
+{
+  "analysis": "post-lock direction-imbalance and feature-identity calibration",
+  "created_at": "2026-08-03T19:01:26.543657+08:00",
+  "status": "B_prevalence_qualified",
+  "scientific_scope": "sensitivity branch; v5.3.2 frozen analyses not recomputed",
+  "seed": 20260803,
+  "iterations": 10000,
+  "batch_size": 50,
+  "python": "3.14.2 (tags/v3.14.2:df79316, Dec  5 2025, 17:18:21) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "numpy": "2.4.0",
+    "pandas": "2.3.3",
+    "scipy": "1.17.1"
+  },
+  "inputs": [
+    {
+      "path": "results/whole_lesion/effects_GSE162610.tsv",
+      "bytes": 17406217,
+      "sha256": "a6b312c6b5ce8a05dc49fa80279eed2d794f0a0d9549ecfc5199f7bade93b2f3"
+    },
+    {
+      "path": "results/whole_lesion/effects_GSE234774.tsv",
+      "bytes": 39419158,
+      "sha256": "0b48ee7b274ba097d08296f4ab7cf438f8ef9341353f5d0e70d5c79377ebaefb"
+    },
+    {
+      "path": "results/whole_lesion/effects_GSE304399.tsv",
+      "bytes": 21311002,
+      "sha256": "6e053a4d7edd002909d09b30bd0870ec575d8899637daa649624f58662e8a3dc"
+    },
+    {
+      "path": "results/whole_lesion_programs/hallmark_gsea_by_study.tsv",
+      "bytes": 202701,
+      "sha256": "27860b6b9cd5b73d0e4c32c4c910a7d6766e6c110b3d3c16215c79870bae6c34"
+    },
+    {
+      "path": "reports/phase_reproducibility_calibration_2026_07/gene_program_global_metrics.tsv",
+      "bytes": 4823,
+      "sha256": "be155a2d40c844b14f02cd54a1d9aad0fb1d96e23dd8840b8e0d295bf26037d9"
+    },
+    {
+      "path": "reports/phase_v5_3_3_postlock_upgrade_2026_08/01_sign_identity_calibration_protocol.md",
+      "bytes": 5002,
+      "sha256": "a2937eae7b4d95f8e1fc3be629f091f27411e07b4e3d12c8c5e00fd75b158efa"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "reports/phase_v5_3_3_postlock_upgrade_2026_08/sign_identity/feature_identity_permutation_null_draws.npz",
+      "bytes": 1980421,
+      "sha256": "01017dea02cd4a8bc08325345694c050bb2bd96968f679e525fb6aec6de5f25b"
+    },
+    {
+      "path": "reports/phase_v5_3_3_postlock_upgrade_2026_08/sign_identity/feature_identity_permutation_summary.tsv",
+      "bytes": 15396,
+      "sha256": "9b85a0ad556a852bb116f2fab15493b078ed048592fbd6826cd0e4e4c8ad961d"
+    },
+    {
+      "path": "reports/phase_v5_3_3_postlock_upgrade_2026_08/sign_identity/frozen_metric_reproduction_audit.tsv",
+      "bytes": 2822,
+      "sha256": "ace656f43a9c6a6303e89a36936b7a314d1e7633014e9f4fc3e07072709e25db"
+    },
+    {
+      "path": "reports/phase_v5_3_3_postlock_upgrade_2026_08/sign_identity/observed_identity_transfer_metrics.tsv",
+      "bytes": 4837,
+      "sha256": "4573568a08a68fbd0a83aceb90ec29bc51ac56d4c81eb3630041b44ba2205896"
+    },
+    {
+      "path": "reports/phase_v5_3_3_postlock_upgrade_2026_08/sign_identity/sign_identity_calibration_audit.md",
+      "bytes": 2228,
+      "sha256": "4e9587bdbe3af4589fda1ab918eb370d2c0e01db193bc316798e7ff965ca2903"
+    },
+    {
+      "path": "reports/phase_v5_3_3_postlock_upgrade_2026_08/sign_identity/sign_identity_calibration_provenance.json",
+      "bytes": 3564,
+      "sha256": "86df5f9c37c8b8172c7d2e222e30d5a6fa5768f4999baf5a6c00a41efb5d3adb"
+    },
+    {
+      "path": "reports/phase_v5_3_3_postlock_upgrade_2026_08/sign_identity/study_direction_prevalence.tsv",
+      "bytes": 1742,
+      "sha256": "3d31747ffdb092754187a5238e466a6e0617b95d86e0eb3e502dece0498de9c0"
+    }
+  ],
+  "warnings": [
+    "Gene moderated statistics and Hallmark normalized enrichment scores are evaluated within scale.",
+    "The identity-permutation null preserves study-level score and sign-prevalence margins.",
+    "This is not a correlation-matched competitive gene-set null and cannot establish curated-set advantage."
+  ]
+}
