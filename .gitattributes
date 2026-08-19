@@ -1,0 +1,3 @@
+# Preserve repository file bytes exactly.
+# The release integrity manifest uses byte-level SHA256 checks.
+* -text
