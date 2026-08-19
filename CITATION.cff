@@ -7,6 +7,10 @@ message: >-
   associated manuscript.
 type: software
 version: 1.0.0
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.22005689"
+    description: "Zenodo archive DOI for version 1.0.0"
 authors:
   - family-names: Qin
     given-names: Dexiang

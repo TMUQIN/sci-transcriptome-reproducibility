@@ -5,7 +5,7 @@
 Status: **PRIVATE RELEASE CANDIDATE RC1 - NOT YET PUBLISHED**  
 GitHub repository: https://github.com/TMUQIN/sci-transcriptome-reproducibility  
 Archived release: `v1.0.0` (planned)  
-Zenodo DOI: `ZENODO_DOI_PENDING`  
+Zenodo DOI: [10.5281/zenodo.22005689](https://doi.org/10.5281/zenodo.22005689)  
 Code license: MIT  
 Author-generated derived data, tables and documentation: CC BY 4.0
 
