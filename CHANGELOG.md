@@ -10,7 +10,7 @@
 - Confirmed the corresponding-author address as Tianjin 300070, China.
 - Documented Python 3.14.2 / Matplotlib 3.10.8 as the historical result-generation environment and Python 3.11 as an advisory reconstruction environment.
 - Added an explicit `.gitignore` exception for the archived permutation NPZ.
-- Kept `GITHUB_URL_PENDING` and `ZENODO_DOI_PENDING` unchanged because the repository has not yet been created or archived.
+- Created the private GitHub repository at https://github.com/TMUQIN/sci-transcriptome-reproducibility; the Zenodo DOI remains pending until a DOI is reserved.
 
 ## Planned v1.0.0 public release
 

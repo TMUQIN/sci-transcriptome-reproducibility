@@ -23,7 +23,7 @@ authors:
   - family-names: Ning
     given-names: Guangzhi
     orcid: "https://orcid.org/0000-0002-1635-9902"
-repository-code: "GITHUB_URL_PENDING"
+repository-code: "https://github.com/TMUQIN/sci-transcriptome-reproducibility"
 license: MIT
 keywords:
   - spinal cord injury
