@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.0.0 - release (2026-08-19)
+
+- Finalized the canonical GitHub repository URL and reserved Zenodo DOI.
+- Finalized v1.0.0 citation and release metadata.
+- Clarified reproducibility and reconstruction boundaries.
+- Refreshed repository integrity hashes after release-metadata updates.
+- Preserved the audited derived data, code, provenance, licensing scope, and historical RC1 record.
+
 ## v1.0.0-rc1 - private release candidate (2026-08-18)
 
 - Synchronized Supplementary Tables S1-S3 with the current ESM2 archive.

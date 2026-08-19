@@ -2,9 +2,9 @@
 
 **Cross-Study Reproducibility in Mouse Spinal Cord Injury Transcriptomes: Analysis Code and Derived Data**
 
-Status: **PRIVATE RELEASE CANDIDATE RC1 - NOT YET PUBLISHED**  
+Status: **VERSION 1.0.0 RELEASE** 
 GitHub repository: https://github.com/TMUQIN/sci-transcriptome-reproducibility  
-Archived release: `v1.0.0` (planned)  
+Archived release: `v1.0.0`  
 Zenodo DOI: [10.5281/zenodo.22005689](https://doi.org/10.5281/zenodo.22005689)  
 Code license: MIT  
 Author-generated derived data, tables and documentation: CC BY 4.0
@@ -122,8 +122,7 @@ Do not use the retired v5.3.3 builder to generate current figures. Start with
 files and analysis scripts.
 
 Until a DOI is assigned, cite the manuscript and this repository by title.
-After publication, replace the pending GitHub URL and Zenodo DOI in this file
-and in `CITATION.cff` with the real identifiers.
+For citation, use the Zenodo archive DOI above together with the repository citation metadata in `CITATION.cff`.
 
 ## 9. Licensing scope
 

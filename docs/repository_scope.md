@@ -22,7 +22,7 @@ It contains:
   complement it.
 - Not a distributor of third-party data — raw GEO matrices, CEL files, and the
   MSigDB GMT are **not** included.
-- Not a published release — it is a **private release candidate** (`v1.0.0` planned).
+- This repository is the versioned **v1.0.0 release** accompanying the manuscript.
   GitHub URL and Zenodo DOI remain placeholders until the real repository and
   archive identifiers are assigned.
 
