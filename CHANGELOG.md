@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-09-17
+
+- Updated the manuscript title to “Temporal Contrast and Molecular Representation Shape Cross-Study Reproducibility in Mouse Spinal Cord Injury Transcriptomes”.
+- Updated target-journal metadata from Molecular Neurobiology to Journal of Molecular Neuroscience.
+- No analytical results, source data, thresholds, statistical procedures, or archived release files were changed.
+
 ## v1.0.0 - release (2026-08-19)
 
 - Finalized the canonical GitHub repository URL and reserved Zenodo DOI.
