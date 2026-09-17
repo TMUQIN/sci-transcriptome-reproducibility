@@ -1,7 +1,6 @@
 cff-version: 1.2.0
 title: >-
-  Cross-Study Reproducibility in Mouse Spinal Cord Injury Transcriptomes:
-  Analysis Code and Derived Data
+  Temporal Contrast and Molecular Representation Shape Cross-Study Reproducibility in Mouse Spinal Cord Injury Transcriptomes: Analysis Code and Derived Data
 message: >-
   If you use this repository, please cite the archived software release and the
   associated manuscript.
