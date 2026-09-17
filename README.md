@@ -1,26 +1,25 @@
-# sci-transcriptome-reproducibility
+# Temporal Contrast and Molecular Representation Shape Cross-Study Reproducibility in Mouse Spinal Cord Injury Transcriptomes
 
-**Cross-Study Reproducibility in Mouse Spinal Cord Injury Transcriptomes: Analysis Code and Derived Data**
+**Analysis Code and Derived Data**
 
 Status: **VERSION 1.0.0 RELEASE** 
 GitHub repository: https://github.com/TMUQIN/sci-transcriptome-reproducibility  
 Archived release: `v1.0.0`  
-Zenodo DOI: [10.5281/zenodo.22005689](https://doi.org/10.5281/zenodo.22005689)  
+Zenodo DOI: [10.5281/zenodo.22005689
+        
+        ](https://doi.org/10.5281/zenodo.22005689
+        
+        )  
 Code license: MIT  
 Author-generated derived data, tables and documentation: CC BY 4.0
 
 ## 1. Purpose
 
-This repository supports the accompanying *Molecular Neurobiology* manuscript.
-It assesses how cross-study reproducibility of mouse spinal-cord-injury
-transcriptome conclusions depends on gene-level versus Hallmark-level
-representation, the temporal contrast, and the biological-sample analysis unit.
-It contains frozen derived outputs, analysis scripts and provenance; it is not
-the journal submission package.
+This repository supports the manuscript “Temporal Contrast and Molecular Representation Shape Cross-Study Reproducibility in Mouse Spinal Cord Injury Transcriptomes,” submitted as an Original Research article to the Journal of Molecular Neuroscience.
 
-Cells and nuclei are never treated as independent biological replicates.
-GSE47681 is an **orthogonal cross-platform context evaluation** and is not
-pooled into the three-dataset synthesis. It is not formal external validation.
+The repository contains versioned analysis code, author-generated derived data, manuscript-facing source tables, and provenance records supporting the main and supplementary analyses.
+
+Cell and nuclei are never treated as independent biological replicates. GSE47681 is an orthogonal cross-platform context evaluation and is not pooled into the three-dataset synthesis; it is not interpreted as formal external validation.
 
 ## 2. Authors and contact
 
