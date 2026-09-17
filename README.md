@@ -19,7 +19,7 @@ This repository supports the manuscript “Temporal Contrast and Molecular Repre
 
 The repository contains versioned analysis code, author-generated derived data, manuscript-facing source tables, and provenance records supporting the main and supplementary analyses.
 
-Cell and nuclei are never treated as independent biological replicates. GSE47681 is an orthogonal cross-platform context evaluation and is not pooled into the three-dataset synthesis; it is not interpreted as formal external validation.
+Cells and nuclei are never treated as independent biological replicates. GSE47681 is an orthogonal cross-platform context evaluation and is not pooled into the three-dataset synthesis; it is not interpreted as formal external validation.
 
 ## 2. Authors and contact
 
