@@ -1,6 +1,8 @@
+
 cff-version: 1.2.0
 title: >-
-  Temporal Contrast and Molecular Representation Shape Cross-Study Reproducibility in Mouse Spinal Cord Injury Transcriptomes: Analysis Code and Derived Data
+  Cross-study reproducibility of molecular responses after mouse spinal cord injury varies by temporal contrast: Analysis Code and Derived Data
+
 message: >-
   If you use this repository, please cite the archived software release and the
   associated manuscript.
@@ -9,7 +11,9 @@ version: 1.0.0
 date-released: 2026-08-19
 identifiers:
   - type: doi
-    value: "10.5281/zenodo.22005689"
+    value: "10.5281/zenodo.22005689
+        
+        "
     description: "Zenodo archive DOI for version 1.0.0"
 authors:
   - family-names: Qin
