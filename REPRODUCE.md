@@ -11,9 +11,9 @@ Their figure/table relationships are listed in
 `metadata/CODE_TO_OUTPUT_MAP.csv` and
 `docs/figure_reproduction_map.md`.
 
-Supplementary Tables S1-S3 are synchronized byte-for-byte with the current
-2026-08-18 Online Resource 2 archive. The repository integrity manifest records
-their SHA256 values.
+
+Supplementary Tables S1-S3 are archived under `tables/`. The manuscript-facing Supplementary File 2 contains the frozen source-data ZIP archive, while Supplementary File 3 contains the formatted XLSX tables. File-level integrity records and source-data relationships are documented in the accompanying manifests and metadata.
+
 
 Status: `EXACTLY_REPRODUCIBLE_FROM_ARCHIVED_INPUT` for frozen tables and source
 data that are directly archived.
