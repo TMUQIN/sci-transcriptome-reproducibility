@@ -1,4 +1,4 @@
-# Temporal Contrast and Molecular Representation Shape Cross-Study Reproducibility in Mouse Spinal Cord Injury Transcriptomes
+# Cross-study reproducibility of molecular responses after mouse spinal cord injury varies by temporal contrast
 
 **Analysis Code and Derived Data**
 
@@ -9,17 +9,15 @@ Zenodo DOI: [10.5281/zenodo.22005689
         
         ](https://doi.org/10.5281/zenodo.22005689
         
+        
+        
         )  
 Code license: MIT  
 Author-generated derived data, tables and documentation: CC BY 4.0
 
 ## 1. Purpose
 
-This repository supports the manuscript “Temporal Contrast and Molecular Representation Shape Cross-Study Reproducibility in Mouse Spinal Cord Injury Transcriptomes,” submitted as an Original Research article to the Journal of Molecular Neuroscience.
-
-The repository contains versioned analysis code, author-generated derived data, manuscript-facing source tables, and provenance records supporting the main and supplementary analyses.
-
-Cells and nuclei are never treated as independent biological replicates. GSE47681 is an orthogonal cross-platform context evaluation and is not pooled into the three-dataset synthesis; it is not interpreted as formal external validation.
+This repository accompanies the manuscript “Cross-study reproducibility of molecular responses after mouse spinal cord injury varies by temporal contrast,” prepared for consideration in Experimental Neurology. It provides versioned scientific code, derived numerical source data, and analytical provenance rather than the journal's manuscript submission files.
 
 ## 2. Authors and contact
 
