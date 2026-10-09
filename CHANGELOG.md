@@ -1,5 +1,16 @@
 # Changelog
 
+
+## 2026-10-09 - Experimental Neurology submission preparation
+
+- Updated the associated manuscript title to "Cross-study reproducibility of molecular responses after mouse spinal cord injury varies by temporal contrast".
+- Updated manuscript-facing metadata for the planned submission to *Experimental Neurology*.
+- Synchronized `README.md`, `CITATION.cff`, `REPRODUCE.md`, `docs/repository_scope.md`, and `docs/FIGURE_ASSEMBLY_STATUS.md` with the current manuscript.
+- Updated supplementary-file terminology and clarified the distinction between numerical reconstruction and final figure assembly.
+- Updated figure descriptions to reflect the current five main figures and six supplementary figures, including study-specific GSEA enrichment results in Figure 5.
+- Preserved the existing Zenodo DOI (10.5281/zenodo.22005689) and the historical v1.0.0 release.
+- No frozen scientific results, statistical thresholds, analysis scripts, source datasets, or archived numerical outputs were modified.
+
 ## 2026-09-17
 
 - Updated the manuscript title to “Temporal Contrast and Molecular Representation Shape Cross-Study Reproducibility in Mouse Spinal Cord Injury Transcriptomes”.
