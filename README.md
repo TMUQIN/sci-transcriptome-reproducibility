@@ -2,18 +2,14 @@
 
 **Analysis Code and Derived Data**
 
-Status: **VERSION 1.0.0 RELEASE** 
+
+Status: **VERSION 1.0.0 RELEASE**  
 GitHub repository: https://github.com/TMUQIN/sci-transcriptome-reproducibility  
 Archived release: `v1.0.0`  
-Zenodo DOI: [10.5281/zenodo.22005689
-        
-        ](https://doi.org/10.5281/zenodo.22005689
-        
-        
-        
-        )  
+Zenodo DOI: [10.5281/zenodo.22005689](https://doi.org/10.5281/zenodo.22005689)  
 Code license: MIT  
 Author-generated derived data, tables and documentation: CC BY 4.0
+
 
 ## 1. Purpose
 
@@ -47,7 +43,7 @@ THIRD_PARTY_DATA.md
 scripts/                 authoritative analysis scripts and legacy provenance
 environment/             historical environment and reconstruction guidance
 data/                    frozen derived data
-tables/                  synchronized Online Resource 2 S1-S3 source tables
+tables/                  Supplementary Tables S1-S3 source tables
 provenance/              protocols, hashes and provenance records
 metadata/                code/output map, GEO manifest and integrity manifest
 docs/                    workflow, scope, figure map and license boundaries
@@ -118,8 +114,9 @@ Do not use the retired v5.3.3 builder to generate current figures. Start with
 `metadata/CODE_TO_OUTPUT_MAP.csv` to identify the relevant numerical source
 files and analysis scripts.
 
-Until a DOI is assigned, cite the manuscript and this repository by title.
-For citation, use the Zenodo archive DOI above together with the repository citation metadata in `CITATION.cff`.
+
+The analysis code and derived data are archived under the Zenodo DOI above. The associated manuscript has not yet received a publication DOI. For citation of this software and data release, use the versioned Zenodo record and the repository citation metadata in `CITATION.cff`.
+
 
 ## 9. Licensing scope
 
